@@ -50,7 +50,7 @@ y + z
 
 #Now it's your turn
 2 + 20 * 31 - 11
-#pay attention to the order of opertaions
+#pay attention to the order of operataions
 (2 + 20) * (31 - 11)
 
 #built-in constant 
