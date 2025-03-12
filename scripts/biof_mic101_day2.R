@@ -77,8 +77,6 @@ ls()
 mean()
 mean(z)
 
-#Let's create some functions
-#see slides
 ?seq
 MySequence <- seq(1, 100, by=5)
 MySequence #print your new created sequence
@@ -90,6 +88,39 @@ SumMySequence <- sum(MySequence)
 SumMySequence
 
 print(SumMySequence)
+
+
+#Let's create some functions
+#see slides
+my_function <- function() { # create a function with the name my_function
+  print("Hello World!")
+}
+#What is the result of running the line below?
+my_function()
+#Good jab! You created a function (that does take any arguments)
+
+#Now try this one:
+fname_function <- function(fname) {
+  paste(fname, "Griffin")
+}
+
+fname_function("Peter")
+fname_function("Lois")
+fname_function("Stewie")
+fname_function()
+#What does the fname_function do? Does it accept any arguments?
+#What happens if you run it empty?
+
+#Let's try another one:
+city_function <- function(city = "Tehran") {
+  paste("I am from", city)
+}
+
+city_function("Shiraz")
+city_function("Mashhad")
+city_function() # will get the default value, which is Tehran
+city_function("Tabriz")
+
 
 #There are many functions built in to R.
 #We can also load sets of functions and data (called packages) to do different types of analysis. 
@@ -191,7 +222,7 @@ is.data.frame(df)
 summary(df)
 
 #List ####
-list <- list(vector = weekdays, matrix1 = mat, matrix2 = animals, dataframe = df)
+list <- list(foo = weekdays, matrix1 = mat, matrix2 = animals, dataframe = df)
 names(list)
 list
 list$matrix2
@@ -270,7 +301,7 @@ library(package-name)
 #Read the package's documentation ####
 help(package-name)
 
-#Install the following R packages for next session
+#Install the following R packages for the next session, using one of the above methods (whichever works for you):
 
 #dada2
 #phyloseq
