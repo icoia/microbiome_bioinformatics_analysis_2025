@@ -140,4 +140,12 @@ Before attending the workshop, please go through the following courses:
   - <a href="https://youtu.be/UGgxfzCoX9k?si=gSHIXaJOQ7CuGDkv">Introduction to R (1)</a>
   - <a href="https://youtu.be/eWa32WxJOnY?si=ZUxdMORnnQd68-GZ">Introduction to R (2)</a> 
   - <a href="http://swcarpentry.github.io/r-novice-inflammation/">Programming with R</a>
+
+
+<h3 id="db">Download database for DADA2</h3>
+Please download the <a href="https://zenodo.org/records/14169026/files/silva_nr99_v138.2_toGenus_trainset.fa.gz?download=1">silva_nr99_v138.2_toGenus_trainset.fa.gz</a> and <a href="https://zenodo.org/records/14169026/files/silva_nr99_v138.2_toSpecies_trainset.fa.gz?download=1">silva_nr99_v138.2_toSpecies_trainset.fa.gz</a> files for taxonomic assignment with DADA2.
+
+<h3 id="data">Download data for DADA2</h3>
+  - <a href="https://github.com/icoia/microbiome_bioinformatics_analysis_2025/tree/main/data/mouse_demultiplexed">mouse_demultiplexed</a>
+  - <a href="https://github.com/icoia/microbiome_bioinformatics_analysis_2025/blob/main/data/mouse_metadata.csv">mouse_metadata</a>
  
