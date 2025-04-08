@@ -10,7 +10,7 @@
 </p>
 <p id="teach">
   <strong>Instructor:</strong>
-  <a href="https://orcid.org/0000-0002-0567-7673">Dr. Mona Parizadeh </a>(Ph.D., PDF)
+  <a href="https://github.com/memoll">Dr. Mona Parizadeh </a>(Ph.D., PDF)
 </p>
 
 <p id="by">
@@ -149,6 +149,6 @@ Before attending the workshop, please go through the following courses:
 
 <h3 id="data">Download data for microbial analysis with DADA2</h3>
 
-  - <a href="https://github.com/icoia/microbiome_bioinformatics_analysis_2025/tree/main/data/mouse_demultiplexed">mouse_demultiplexed</a>
+  - <a href="https://github.com/memoll/MicrobiomeBioinformaticsAnalysisWorkshop2023/tree/7930024179b2da0d86a5eaa9f3982f10494d2cf4/data/mouse_demultiplexed">mouse_demultiplexed</a>
   - <a href="https://github.com/icoia/microbiome_bioinformatics_analysis_2025/blob/main/data/mouse_metadata.csv">mouse_metadata</a>
  
